@@ -23,6 +23,7 @@ img {
 body {
     background: url(blood.png) no-repeat center center fixed;
     background-size: cover;
+ 
 }
 
 /*.sticker {*/
@@ -51,7 +52,8 @@ p.bold {
 
 .body {
     font-family: 'Permanent Marker', cursive;
-    font-size: 40px;
-    letter-spacing: 2px;
+    font-size: 30px;
+    letter-spacing: 1px;
     text-align: center;
+    margin: 150px;
 }
