@@ -1,18 +1,27 @@
 /*body {*/
+
+
 /*    background-image: url(blood.png);*/
+
+
 /*    max-width: 100%;*/
+
+
 /*    max-height: 100%;*/
+
+
 /*}*/
-body{
-  background: url(blood.png) no-repeat center center fixed; 
-  background-size: cover;
+
+body {
+    background: url(blood.png) no-repeat center center fixed;
+    background-size: cover;
 }
 
 .sticker {
     background: url(wood.jpg );
     border: 1px;
     color: #d9d9d9;
-    font-family: 'Bangers', cursive;
+    font-family: 'Creepster', cursive;
     font-size: 60px;
     letter-spacing: 3.5px;
     margin: 100px 100px 15px 100px;
@@ -35,7 +44,6 @@ p.bold {
 .body {
     font-family: 'Permanent Marker', cursive;
     font-size: 40px;
-
     letter-spacing: 2px;
     text-align: center;
 }
