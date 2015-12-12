@@ -1,52 +1,56 @@
-/*body {*/
-
-
-/*    background-image: url(blood.png);*/
-
-
-/*    max-width: 100%;*/
-
-
-/*    max-height: 100%;*/
-
-
-/*}*/
 img {
-    width:400px;
-    height:600px;
+    display: block;
+    height: 600px;
+    width: 400px;
     margin-left: auto;
     margin-right: auto;
-    display: block;
-    
+    margin-top: 80px;
 }
- 
+
 body {
     background: url(blood.png) no-repeat center center fixed;
     background-size: cover;
- 
 }
+
 
 /*.sticker {*/
-/*    background: url(wood.jpg );*/
-/*    border: 1px;*/
-/*    color: #d9d9d9;*/
-/*    font-family: 'Creepster', cursive;*/
-/*    font-size: 60px;*/
-/*    letter-spacing: 3.5px;*/
-/*    margin: 100px 100px 15px 100px;*/
-/*    padding: 0px;*/
-/*    text-align: center;*/
-}
 
-p.bold {
-    font-weight: 900;
-}
+
+/*    background: url(wood.jpg );*/
+
+
+/*    border: 1px;*/
+
+
+/*    color: #d9d9d9;*/
+
+
+/*    font-family: 'Creepster', cursive;*/
+
+
+/*    font-size: 60px;*/
+
+
+/*    letter-spacing: 3.5px;*/
+
+
+/*    margin: 100px 100px 15px 100px;*/
+
+
+/*    padding: 0px;*/
+
+
+/*    text-align: center;*/
+
+
+/*}*/
 
 .intro {
     font-family: 'Indie Flower', cursive;
     font-size: 50px;
     letter-spacing: 3px: position: relative;
     text-align: center;
+    text-shadow: 0px 1px 0px red;
     width: 100%;
 }
 
@@ -56,4 +60,39 @@ p.bold {
     letter-spacing: 1px;
     text-align: center;
     margin: 0px 130px 0px 130px;
+    text-shadow: 0px 1px 0px red;
+}
+
+.form {
+    background: url(wood.jpg );
+    border: 1px;
+    display: block;
+    height: 10.2%;
+    margin: 0 auto;
+    padding-bottom: 10px;
+    position: fixed;
+    text-align: center;
+    top: 0;
+    width: 100%;
+}
+
+h4 {
+    font-size: 32px;
+    letter-spacing: 1.2px;
+}
+
+#creep {
+    color: red;
+    display: inline-block;
+    font-family: 'Creepster', cursive;
+    margin: 0px;
+}
+#email {
+    font-family: 'Indie Flower', cursive;
+}
+
+.button {
+    background-color: #7d5d3b;
+    border: 1px solid #54381e;
+    text-shadow: 0px 1px 0px #800000;
 }
