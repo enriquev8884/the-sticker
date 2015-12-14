@@ -2,8 +2,14 @@ body {
     background: url(blood.png) no-repeat center center fixed;
     background-size: cover;
 }
-
-img {
+.scared{
+    
+    
+}
+.movie {
+    
+}
+.robot {
     display: block;
     height: 600px;
     width: 400px;
