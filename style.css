@@ -2,13 +2,7 @@ body {
     background: url(blood.png) no-repeat center center fixed;
     background-size: cover;
 }
-.scared{
-    
-    
-}
-.movie {
-    
-}
+
 .robot {
     display: block;
     height: 600px;
@@ -79,9 +73,9 @@ body {
     background: url(wood.jpg );
     border: 0px;
     display: block;
-    height: 10.3%;
+    height: 10%;
     margin: 0 auto;
-    padding-bottom: 6px;
+    padding-bottom: 8px;
     position: fixed;
     text-align: center;
     top: 0;
@@ -91,15 +85,24 @@ body {
 h4 {
     font-size: 32px;
     letter-spacing: 1.2px;
-    padding-top: 2px;
+    padding-top: 5px;
 }
 
 #creep {
     color: red;
     display: inline-block;
     font-family: 'Creepster', cursive;
-    margin: 0px;
+    margin: 0px
 }
+
+#creep-h4 {
+    color: red;
+    display: inline-block;
+    font-family: 'Creepster', cursive;
+    margin: 5px
+}
+
+
 #email {
     font-family: 'Indie Flower', cursive;
 }
