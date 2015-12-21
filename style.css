@@ -12,40 +12,6 @@ body {
     margin-top: 80px;
 }
 
-
-
-/*.sticker {*/
-
-
-/*    background: url(wood.jpg );*/
-
-
-/*    border: 1px;*/
-
-
-/*    color: #d9d9d9;*/
-
-
-/*    font-family: 'Creepster', cursive;*/
-
-
-/*    font-size: 60px;*/
-
-
-/*    letter-spacing: 3.5px;*/
-
-
-/*    margin: 100px 100px 15px 100px;*/
-
-
-/*    padding: 0px;*/
-
-
-/*    text-align: center;*/
-
-
-/*}*/
-
 .intro {
     font-family: 'Indie Flower', cursive;
     font-size: 50px;
@@ -97,7 +63,6 @@ h4 {
     margin: 5px
 }
 
-
 #email {
     font-family: 'Indie Flower', cursive;
 }
@@ -106,4 +71,11 @@ h4 {
     background-color: #7d5d3b;
     border: 1px solid #54381e;
     text-shadow: 0px 1px 0px #800000;
+}
+
+video {
+    margin-bottom: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block
 }
