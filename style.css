@@ -4,6 +4,7 @@ body {
 }
 
 .robot {
+    box-shadow: 3px 3px 4px grey;
     display: block;
     height: 600px;
     width: 400px;
@@ -16,7 +17,7 @@ body {
 
     font-family: 'Indie Flower', cursive;
     font-size: 50px;
-    letter-spacing: 3px: 
+    letter-spacing: 3px; 
     position: relative;
     text-align: center;
     text-shadow: 0px 1px 0px red;
@@ -38,7 +39,7 @@ body {
     display: block;
     height: 10%;
     margin: 0 auto;
-    padding-bottom: 8px;
+    padding-bottom: 7px;
     position: fixed;
     text-align: center;
     top: 0;
@@ -79,5 +80,24 @@ video {
     margin-bottom: 50px;
     margin-left: auto;
     margin-right: auto;
-    display: block
+    display: block;
+}
+
+.scared {
+    height: 150px;
+    margin-top: 300px;
+    position: fixed;
+    -webkit-animation-name: scared; 
+    -webkit-animation-duration: 5s; 
+    -webkit-animation-iteration-count: infinite;
+    opacity: 0;
+}
+    
+@-webkit-keyframes scared {
+    0% {transform: rotate(0deg); left: -90px;}
+    10% {transform: rotate(10deg); right: 1px; opacity: 1;}
+    50% {transform: rotate(20deg); left: 1px; opacity: 1;}
+    60% {transform: rotate(20deg); left: 1px; opacity: 1;}
+    70% {transform: rotate(20deg); left: 1px; opacity: 1;}
+    100% {transform: rotate(0deg); left: -90px;}
 }
