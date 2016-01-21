@@ -4,7 +4,7 @@ html{
 }
 .blood {
     background: url(blood.png) no-repeat center center fixed;
-    background-size: cover;
+    background-size: cover;  /*css3 background*/
     height: 100%;
     width: 100%;
     position: fixed;
