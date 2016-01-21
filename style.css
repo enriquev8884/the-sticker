@@ -26,7 +26,7 @@ body{
     margin-left: auto;
     margin-right: auto;
     margin-top: 80px;
-    z-index: 2;
+
 }
 
 .intro {
@@ -100,25 +100,24 @@ video {
 }
 
 .scared {
-    height: 150px;
+    height: 100px;
     margin-top: 300px;
     position: fixed;
-    -webkit-animation-name: scared; 
-    -webkit-animation-duration: 5s; 
-    -webkit-animation-iteration-count: infinite;
-    opacity: 0;
-     -webkit-transition: width 5s height 5s;
+    opacity: 0; /* Sets standard to 0*/
+    -webkit-animation-name: scared; /*sets the name of the animation, this allows us to select it in key frames*/
+    -webkit-animation-duration: 5s; /* the amount of seconds the animation will last*/
+    -webkit-animation-iteration-count: infinite;/*it set how many times the animation repeats*/
+     -webkit-transition: width .5s height 2s; /*sets the amount of time the width and height have to transition in .scared:hover*/
 }
     
-@-webkit-keyframes scared {
-    0% {transform: rotate(0deg); left: -90px;}
-    10% {transform: rotate(10deg); right: 1px; opacity: 1;}
-    50% {transform: rotate(20deg); left: 1px; opacity: 1;}
-    60% {transform: rotate(20deg); left: 1px; opacity: 1;}
-    70% {transform: rotate(20deg); left: 1px; opacity: 1;}
-    100% {transform: rotate(0deg); left: -90px;}
+@-webkit-keyframes scared { /*It selects the animation name scared*/
+    0% {transform: rotate(0deg); left: -90px;}/*sets the animation to start off at a rotationn of 0 degrees, and left -90px */
+    10% {transform: rotate(10deg); right: 1px; opacity: 1;}/*at 0.5 seconds the image rotates 10 degrees, moves to the right 1px and changes opcatity to 1(duration for 3 seconds)*/
+    70% {transform: rotate(20deg); left: 1px; opacity: 1;}/* at 3.5 seconds the image rotates 20 degrees then moves to the left 1px*/
+    100% {transform: rotate(0deg); left: -90px;}/* 5 seconds it goes back to the 0% animation*/
 }
-.scared:hover{
-    width: 175px;
-    height: 325px;
+.scared:hover{/*When the mouse is over the image it increases its width and height */
+    width: 100px;
+    height: 175px;
+    
 }
